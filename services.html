@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haircuts, Coloring, Treatments | MOTEA Salon Cyprus</title>
+    <meta name="description" content="Premium hair services in Nicosia: haircuts, coloring, treatments, styling, men's grooming, bridal packages. Expert stylists since 1937.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="navbar" class="navbar">
+    <div class="container nav-container">
+        <a href="index.html" class="logo">
+            <img src="https://i.ibb.co/nMXxSWmg/Motea-logo.png" alt="MOTEA" class="logo-img">
+            <span class="logo-text">MOTEA</span>
+        </a>
+        
+        <div class="nav-links desktop-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="services.html" class="nav-link active">Services</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+
+        <div class="social-icons desktop-nav">
+            <a href="https://www.instagram.com/motel.hair" target="_blank" class="social-link" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                </svg>
+            </a>
+            <a href="https://www.facebook.com/motel.salon" target="_blank" class="social-link" aria-label="Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+            </a>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="about.html" class="mobile-link">About</a>
+        <a href="services.html" class="mobile-link">Services</a>
+        <a href="gallery.html" class="mobile-link">Gallery</a>
+        <a href="contact.html" class="mobile-link">Contact</a>
+    </div>
+</nav>
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="page-header-bg"></div>
+    <div class="container">
+        <h1 class="page-title reveal-text">Our Services</h1>
+        <p class="page-subtitle reveal-text">Haircuts, Coloring, Treatments & More — Tailored to Perfection</p>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-detailed section-padding">
+    <div class="container">
+        
+        <!-- Service Item 1 -->
+        <div class="service-detail-item reveal-service">
+            <div class="service-detail-content">
+                <div class="service-detail-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5">
+                        <circle cx="6" cy="6" r="3"></circle>
+                        <circle cx="6" cy="18" r="3"></circle>
+                        <line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                        <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                    </svg>
+                </div>
+                <h2 class="service-detail-title">Haircuts & Styling</h2>
+                <div class="gold-divider"></div>
+                <p class="service-detail-description">
+                    Expert cuts tailored to your face shape and lifestyle. From classic precision cuts to avant-garde styles, our stylists bring international expertise and creative vision.
+                </p>
+                <div class="service-price">From €45</div>
+            </div>
+            <div class="service-detail-image">
+                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&q=80" alt="Haircuts & Styling" loading="lazy">
+            </div>
+        </div>
+
+        <div class="gold-divider-full"></div>
+
+        <!-- Service Item 2 -->
+        <div class="service-detail-item reverse reveal-service">
+            <div class="service-detail-content">
+                <div class="service-detail-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5">
+                        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                        <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                    </svg>
+                </div>
+                <h2 class="service-detail-title">Hair Coloring</h2>
+                <div class="gold-divider"></div>
+                <p class="service-detail-description">
+                    Premium color services including balayage, highlights, ombré, and color correction. We use only the finest products to achieve stunning, long-lasting results.
+                </p>
+                <div class="service-price">From €80</div>
+            </div>
+            <div class="service-detail-image">
+                <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80" alt="Hair Coloring" loading="lazy">
+            </div>
+        </div>
+
+        <div class="gold-divider-full"></div>
+
+        <!-- Service Item 3 -->
+        <div class="service-detail-item reveal-service">
+            <div class="service-detail-content">
+                <div class="service-detail-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                    </svg>
+                </div>
+                <h2 class="service-detail-title">Treatments & Therapy</h2>
+                <div class="gold-divider"></div>
+                <p class="service-detail-description">
+                    Deep conditioning, keratin treatments, and scalp therapy for ultimate hair health. Restore vitality and shine with our specialized treatment programs.
+                </p>
+                <div class="service-price">From €50</div>
+            </div>
+            <div class="service-detail-image">
+                <img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=600&q=80" alt="Treatments" loading="lazy">
+            </div>
+        </div>
+
+        <div class="gold-divider-full"></div>
+
+        <!-- Service Item 4 -->
+        <div class="service-detail-item reverse reveal-service">
+            <div class="service-detail-content">
+                <div class="service-detail-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <h2 class="service-detail-title">Men's Services</h2>
+                <div class="gold-divider"></div>
+                <p class="service-detail-description">
+                    Classic cuts, hot towel shaves, beard grooming, and modern styling. Dedicated services designed specifically for the modern gentleman.
+                </p>
+                <div class="service-price">From €35</div>
+            </div>
+            <div class="service-detail-image">
+                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80" alt="Men's Services" loading="lazy">
+            </div>
+        </div>
+
+        <div class="gold-divider-full"></div>
+
+        <!-- Service Item 5 -->
+        <div class="service-detail-item reveal-service">
+            <div class="service-detail-content">
+                <div class="service-detail-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                </div>
+                <h2 class="service-detail-title">Bridal & Events</h2>
+                <div class="gold-divider"></div>
+                <p class="service-detail-description">
+                    Complete bridal packages including trial, styling, and touch-ups. Make your special day unforgettable with our dedicated bridal team.
+                </p>
+                <div class="service-price">Custom Packages</div>
+            </div>
+            <div class="service-detail-image">
+                <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&q=80" alt="Bridal Services" loading="lazy">
+            </div>
+        </div>
+
+        <div class="gold-divider-full"></div>
+
+        <!-- Service Item 6 -->
+        <div class="service-detail-item reverse reveal-service">
+            <div class="service-detail-content">
+                <div class="service-detail-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.5">
+                        <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                    </svg>
+                </div>
+                <h2 class="service-detail-title">Massage & Wellness</h2>
+                <div class="gold-divider"></div>
+                <p class="service-detail-description">
+                    Relaxing head, neck, and shoulder massages to complement your salon experience. Complete relaxation and rejuvenation.
+                </p>
+                <div class="service-price">From €30</div>
+            </div>
+            <div class="service-detail-image">
+                <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=80" alt="Massage" loading="lazy">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section section-padding">
+    <div class="container text-center">
+        <h2 class="cta-title reveal-text">Ready for Your Transformation?</h2>
+        <p class="cta-text reveal-text">Call us at <a href="tel:+35796250400" class="gold-text">+357 96 250400</a> to book</p>
+        <a href="contact.html" class="btn btn-cta glow-btn">Book Now</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="https://i.ibb.co/nMXxSWmg/Motea-logo.png" alt="MOTEA">
+                    <h3>MOTEA</h3>
+                </div>
+                <p>A Creative Space for Hair, Beauty & Art since 1937.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <a href="tel:+35796250400">+357 96 250400</a>
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <a href="mailto:salonmotel@gmail.com">salonmotel@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/motel.hair" target="_blank" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/motel.salon" target="_blank" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MOTEA Hair Salon. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<a href="https://wa.me/35796250400?text=Hi%20MOTEA%2C%20I%20would%20like%20to%20book%20an%20appointment" 
+   class="whatsapp-btn" target="_blank" aria-label="WhatsApp">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-pulse"></span>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
